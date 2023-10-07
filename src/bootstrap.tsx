@@ -1,7 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
+import './i18n';
 import reportWebVitals from './reportWebVitals';
 
 const mount = (el: HTMLElement) => {
